@@ -67,6 +67,7 @@ footer {
   margin-bottom: 1em;
 }
 
+/* General Responsive 600px */
 @media (max-width: 600px) {
   .card {
     min-width: 5em;
@@ -74,7 +75,7 @@ footer {
     padding: 2em;
   }
 }
-
+/* General Responsive 550px */
 @media (max-width: 550px) {
   .card {
     border-radius: 10px;
@@ -84,7 +85,7 @@ footer {
     padding: 1em;
   }
 }
-
+/* General Responsive 493px */
 @media (max-width: 493px) {
   .card {
     border-radius: 10px;
