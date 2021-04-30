@@ -5,7 +5,16 @@
 body {
     background-color: antiquewhite;
     background: url(img/background.svg);
-    z-index: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.general-container{
+    width: 350px;
+    height: 400px;
+    margin-top: 17%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -16,8 +25,7 @@ body {
     perspective: 1000px;
     border-radius: 20px 20px 20px 20px;
     box-sizing: border-box;
-    top: 25%;
-    left: 40%;
+    margin-bottom: 2.5em;
 }
 
 .social-media{
@@ -27,15 +35,16 @@ body {
     height: 70px;
     padding: 0.5em;
     border-radius: 20px;
-    top: 102%;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 420px;
+    
 }
 
 .social-media img{
     position: relative;
     top: 7%;
-    left: 25%;
+    left: 15%;
     width: 45px;
     height: 45px;
     box-sizing: border-box;
